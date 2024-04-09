@@ -80,4 +80,8 @@ func main() {
 	sandwiches3 := []int{0, 1, 0, 1, 0, 0}
 	fmt.Println(countStudents(students3, sandwiches3))
 
+	students4 := []int{1, 1, 1, 0, 0, 1, 1}
+	sandwiches4 := []int{1, 0, 1, 0, 1, 0, 0}
+	fmt.Println(countStudents(students4, sandwiches4))
+
 }
