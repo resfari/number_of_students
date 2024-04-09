@@ -75,4 +75,9 @@ func main() {
 	students2 := []int{1, 1, 1, 0, 0, 1}
 	sandwiches2 := []int{1, 0, 0, 0, 1, 1}
 	fmt.Println(countStudents(students2, sandwiches2))
+
+	students3 := []int{1, 1, 0, 0, 1, 1}
+	sandwiches3 := []int{0, 1, 0, 1, 0, 0}
+	fmt.Println(countStudents(students3, sandwiches3))
+
 }
