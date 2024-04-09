@@ -68,7 +68,7 @@ func countStudents(students []int, sandwiches []int) int {
 }
 
 func main() {
-	students := []int{1, 1, 0, 0}
+	students := []int{1, 0, 1, 0}
 	sandwiches := []int{0, 1, 0, 1}
 	fmt.Println(countStudents(students, sandwiches))
 
@@ -76,12 +76,11 @@ func main() {
 	sandwiches2 := []int{1, 0, 0, 0, 1, 1}
 	fmt.Println(countStudents(students2, sandwiches2))
 
-	students3 := []int{1, 1, 0, 0, 1, 1}
-	sandwiches3 := []int{0, 1, 0, 1, 0, 0}
+	students3 := []int{1, 1, 1, 0, 0, 1, 1}
+	sandwiches3 := []int{1, 0, 0, 0, 1, 1, 0}
 	fmt.Println(countStudents(students3, sandwiches3))
 
 	students4 := []int{1, 1, 1, 0, 0, 1, 1}
 	sandwiches4 := []int{1, 0, 1, 0, 1, 0, 0}
 	fmt.Println(countStudents(students4, sandwiches4))
-
 }
